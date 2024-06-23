@@ -1,0 +1,84 @@
+@startuml
+left to right direction
+
+class Celestial_Objects {
+  +create_object()
+  +Load()
+}
+
+class Celestial_Mechanics {
+  +calculate_orbit()
+  +simulate()
+}
+
+class Spherical_Trigonometry {
+  +calculate_coordinates()
+  +convert_coordinate_systems()
+  +calculate_theta()
+}
+
+class Astrophysics {
+  +calculate_planet_temprature()
+  +model_stellar_evulation()
+  +hr_diagram()
+}
+
+class Cosmology {
+  +simulate_universe_expansion()
+  +analyze_cosmic_background()
+}
+
+class Data_Analyzing {
+  +remove_noises()
+  +process_data()
+}
+
+class Image_Processing {
+  +remove_noises()
+  +detect_objects()
+}
+
+class Thermodynamics {
+  +model_thermal_processes()
+  +analyze_heat_transfer()
+}
+
+class Observation_Tools {
+  +control_telescopes()
+  +record_observations()
+  +track_object()
+}
+
+class AmateurAstronomers
+class Researchers
+class GameDevelopers
+class SpaceIndustriesProfessionals
+
+AmateurAstronomers --> Celestial_Objects
+AmateurAstronomers --> Spherical_Trigonometry
+AmateurAstronomers --> Observation_Tools
+AmateurAstronomers --> Image_Processing
+
+Researchers --> Celestial_Objects
+Researchers --> Spherical_Trigonometry
+Researchers --> Observation_Tools
+Researchers --> Image_Processing
+Researchers --> Data_Analyzing
+Researchers --> Astrophysics
+
+GameDevelopers --> Celestial_Objects
+GameDevelopers --> Spherical_Trigonometry
+GameDevelopers --> Data_Analyzing
+GameDevelopers --> Astrophysics
+GameDevelopers --> Celestial_Mechanics
+
+SpaceIndustriesProfessionals --> Celestial_Objects
+SpaceIndustriesProfessionals --> Spherical_Trigonometry
+SpaceIndustriesProfessionals --> Observation_Tools
+SpaceIndustriesProfessionals --> Image_Processing
+SpaceIndustriesProfessionals --> Astrophysics
+SpaceIndustriesProfessionals --> Cosmology
+SpaceIndustriesProfessionals --> Thermodynamics
+SpaceIndustriesProfessionals --> Data_Analyzing
+SpaceIndustriesProfessionals --> Celestial_Mechanics
+@enduml
