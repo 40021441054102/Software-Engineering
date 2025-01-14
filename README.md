@@ -8,7 +8,7 @@ Software Engineering Projects, Papers and Other Stuff
   - Semester : 6
 - Term 7 : Software Engineering
   - Teacher : Dr. Hossein Mir Shojaei
-  - Score : - / 20
+  - Score : 19 / 20
   - Semester : 7
 
 ## Software Engineering Proposal
